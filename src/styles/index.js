@@ -20,6 +20,10 @@ const useStyles = makeStyles(theme => ({
     [theme.breakpoints.down("sm")]: {
       height: 300,
       fontSize: '3em'
+    },
+
+    '& *': {
+      fontFamily: "Roboto Segoe UI, Arial, sans-serif",
     }
   },
 
