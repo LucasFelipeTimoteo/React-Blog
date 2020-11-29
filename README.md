@@ -1,7 +1,9 @@
 # React-Blog
-![React Blog](.github/images/react_blog.png)
+### Header
+![React Blog Header](.github/images/react_blog.png)
 
-![React Blog](.github/images/react_blog2.png)
+### Posts
+![React Blog Posts](.github/images/react_blog2.png)
 
 ## Deps
 - React
