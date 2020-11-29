@@ -32,6 +32,10 @@ const useStyles = makeStyles(theme => ({
   },
   card: {
     maxWidth: "100%",
+    minHeight: 530,
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-between",
   },
   media: {
     height: 240
