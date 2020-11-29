@@ -3,6 +3,7 @@ import theme from './MUI theme';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Articles from './components/Articles';
+import Pagination from './components/Pagination';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Navbar />
         <Header />
         <Articles />
+        <Pagination />
       </div>
     </ThemeProvider>
   );

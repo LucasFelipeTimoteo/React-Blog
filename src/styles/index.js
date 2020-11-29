@@ -16,7 +16,11 @@ const useStyles = makeStyles(theme => ({
     justifyContent: "center",
     alignItems: "center",
     color: "#fff",
-    fontSize: "4rem"
+    fontSize: "4rem",
+    [theme.breakpoints.down("sm")]: {
+      height: 300,
+      fontSize: '3em'
+    }
   },
 
   articlesContainer: {
@@ -40,6 +44,11 @@ const useStyles = makeStyles(theme => ({
   author: {
     display: "flex"
   },
+
+  paginationContainer: {
+    display: "flex",
+    justifyContent: "center"
+  }
 }))
 
 export default useStyles
