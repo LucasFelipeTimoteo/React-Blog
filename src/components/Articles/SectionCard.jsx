@@ -35,7 +35,6 @@ export default function Sectioncard({ data }) {
         </CardContent>
       </CardActionArea>
 
-      <div className={classes.cardInfo}>
         <CardActions className={classes.cardActions}>
           <Box className={classes.author}>
             <Avatar src={data.avatar} />
@@ -52,7 +51,6 @@ export default function Sectioncard({ data }) {
             <BookmarkBorderIcon />
           </Box>
         </CardActions>
-      </div>
     </Card>
   )
 }

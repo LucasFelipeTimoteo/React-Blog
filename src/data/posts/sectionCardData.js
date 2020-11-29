@@ -26,7 +26,7 @@ const sectionCardData = {
   post4:{
     image: "https://images.pexels.com/photos/325111/pexels-photo-325111.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
     title: "What is Material-ui",
-    description: "React components for faster and easier web development. Build your own design system, or start with Material Design.",
+    description: "Material-UI is a library that provides React components for easy and fast web development. We can easily put together really aesthetic and functional components and make it work according to our use as all the components are configurable. This saves a lot of time as we don’t have to struggle with CSS to make things presentable. Material-UI components work in isolation.",
     avatar: "https://images.unsplash.com/photo-1584999734482-0361aecad844?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1100&q=80",
     authorName: "Luke Anthony",
     date: "May 15, 2020"
