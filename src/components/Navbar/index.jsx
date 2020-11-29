@@ -9,7 +9,7 @@ export default function NavBar(props) {
     <AppBar className={classes.appBar}>
       <Toolbar>
         <Typography variant="h6" color="primary">
-          Blog
+          React
         </Typography>
       </Toolbar>
     </AppBar>
